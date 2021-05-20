@@ -1,5 +1,6 @@
 SELECT DISTINCT COUNT(emp_no) FROM employees;
 SELECT DISTINCT COUNT(emp_no) FROM salaries;
+SELECT DISTINCT COUNT(emp_no) FROM dept_emp;
 SELECT DISTINCT COUNT(emp_no) FROM dept_manager;
 SELECT DISTINCT COUNT(dept_name) FROM departments;
 SELECT * FROM employees
